@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- seo meta tags -->
     <meta name="description" content="Our web description" />
     <meta name="keywords" content="HTML, CSS, JavaScript,Pseudo elements" />
     <meta name="author" content="kristina" />
@@ -14,15 +15,17 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Our fb Title" />
-    <meta
-      property="og:description"
-      content="Our Fb Description"
-    />
+    <meta property="og:description" content="Our Fb Description" />
     <meta
       property="og:image"
       content="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
     />
     <title>Lesson 13</title>
+    <!-- animate framework -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -38,10 +41,32 @@
     </header>
     <section>
       <p class="text">Hello</p>
+      <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div>
+        
+      </div>
+      <img src="https://media.istockphoto.com/id/1340642632/photo/sunflowers.jpg?s=170667a&w=0&k=20&c=yVQkU_vonXZk0M0oLKRA1kKeEW3UCWceBdSDYv_sSmY=" alt="">
+      <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_EJoCoCM84n.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     </section>
 
     <section id="contact-section">
-      <h3>Contact Info</h3>
+      <h3 class="animate__animated animate__flash">Contact Info</h3>
+      <iframe class="video-youtube" src="https://www.youtube.com/embed/X3qyxo_UTR4?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
+
+
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
